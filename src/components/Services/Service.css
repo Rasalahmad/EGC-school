@@ -1,0 +1,16 @@
+.service-thamb{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), #c9a7d5), url(https://images.ctfassets.net/p0qf7j048i0q/51AA4362F1944F86A10EF205BBDCB757_en-US/5f026f945eb00e6337ba5b3d341d81d6/i1136539278.jpg?w=1000&h=750&fit=fill&fm=webp);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+.service-title h1{
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+.service-title{
+    color: #fff;
+    text-align: center;
+}

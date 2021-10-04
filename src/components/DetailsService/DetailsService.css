@@ -1,0 +1,15 @@
+.details-container{
+    background-color: aliceblue;
+}
+.single-service{
+    width: 7=80%;
+    /* text-align: center; */
+    border: 1px solid whitesmoke;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 5px;
+}
+.single-service img{
+    width: 100%;
+    margin-bottom: 50px;
+}

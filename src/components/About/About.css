@@ -1,0 +1,20 @@
+.about-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), #58a782), url(../../images/Chimui.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+}
+.about-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.about-details{
+    border: 1px solid gray;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #58a782;
+    color: white;
+}
