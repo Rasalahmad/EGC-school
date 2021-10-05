@@ -7,7 +7,13 @@ const Header = () => {
         color: "blue",
         marginRight: "30px",
         color: "white",
-        textDecoration: 'none'
+        textDecoration: 'none',
+        padding: '10px 15px',
+        borderRadius: '15px'
+    }
+    const activeStyle = {
+        backgroundColor: 'gray',
+        fontWeight: 'bold'
     }
     return (
         <div>
@@ -24,24 +30,28 @@ const Header = () => {
                         <NavLink
                             to="/home"
                             style={style}
+                            activeStyle = {activeStyle}
                             >
                             Home
                         </NavLink>
                         <NavLink
                             to="/services"
                             style={style}
+                            activeStyle = {activeStyle}
                             >
                             Services
                         </NavLink>
                         <NavLink
                             to="/blogs"
                             style={style}
+                            activeStyle = {activeStyle}
                             >
                             Blogs
                         </NavLink>
                         <NavLink
                             to="/about"
                             style={style}
+                            activeStyle = {activeStyle}
                             >
                             About Us
                         </NavLink>

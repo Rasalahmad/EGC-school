@@ -16,10 +16,10 @@ const Home = () => {
                 <h1 className = 'title'>Ethnic Group <br/> Cultural School (EGC-School)</h1>
                 <p className = 'text-white'>An ethnic group is a group of people who identify with each other through a common heritage, which generally consists of a common culture and shared language or dialect. The group’s ethos or ideology may also stress common ancestry, religion, or race.</p>
                 </div>
-                <button className = 'btn btn-outline-light w-25'>Learn More</button>
+                <Button variant='outline-light' className = 'w-25 p-2'>Learn More</Button>
             </div>
             <div>
-                <h2 className = 'text-center my-5 fw-bold'>Our Survices</h2>
+                <h2 className = 'text-center my-5 fw-bold'>Our Services</h2>
                 <div className = 'service-card'>
                 {
                     services.slice(0, 4).map((service, key) => <div 
